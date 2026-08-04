@@ -5,6 +5,7 @@
 # if the list is sorted , the algo will still run 
 # bubble sort / inserstion sort can stop early if the list is already sorted but selection sort cant 
 # time complexity : (O(n²)) 
+# selection sort is good because it takes max one swap per outer iteration so it is useful when the swapping is expensive
 
 
 def SelectionSort(list1):
